@@ -19,3 +19,11 @@ function showAnswer(){
         }
     }
 }
+
+const question = document.getElementById('question')
+const answer = document.getElementById('answer')
+
+function addData() {
+    data.questions.push(question.value)
+    data.answers.push(answer.value)
+}
