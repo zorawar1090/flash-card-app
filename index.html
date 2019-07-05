@@ -9,15 +9,21 @@
 
     <body>
         <main>
+            <div>
+                <button onclick="translateDutch()">Dutch</button> 
+                <button onclick="translatePortuguese()">Portuguese</button>
+            </div>
             <section>
-                <h1>Translate to Dutch!</h1>
-                <div id = "box">
+                <div id="translate-to">
+
+                </div>
+                <div id="box">
                 
                 </div>
                 <button onclick="showAnswer()">Check answer!</button>
                 <button onclick="randQuestion()">Next</button>
             </section>
-            <section>
+            <!-- <section>
                 <form onsubmit="addData(); return false">
                     <label>Type a new English word:</label>
                     <input type="text" id="question"><br/>
@@ -25,7 +31,7 @@
                     <input type="text" id="answer"><br/><br/>
                     <button type="submit">Submit</button>
                 </form>
-            </section>
+            </section> -->
         </main>
         <script src="index.js"></script>
     </body>
