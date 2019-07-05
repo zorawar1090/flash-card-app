@@ -4,9 +4,9 @@ body {
 section {
     background-color: white;
     color: midnightblue;
-    min-width: 20%;
+    min-width: 30%;
     max-width: 40%;
-    padding: 2%;
+    padding: 1%;
     margin: 0 auto;
     text-align: center;
     border-radius: 5px;
@@ -15,4 +15,10 @@ section {
 }
 h2{
     color: crimson;
+}
+div{
+    margin: 0 auto;
+    min-width: 30%;
+    max-width: 50%;
+    text-align: center
 }
