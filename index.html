@@ -16,6 +16,15 @@
                 </div>
                 <button onclick="showAnswer()">Check answer!</button>
             </section>
+            <section>
+                <form onsubmit="addData(); return false">
+                    <label>Type a new English word:</label>
+                    <input type="text" id="question"><br/>
+                    <label>Type the word in Dutch:&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="answer"><br/><br/>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
         </main>
         <script src="index.js"></script>
     </body>
