@@ -4,9 +4,9 @@ const data = {
 
 const rand = data.questions[Math.floor(Math.random() * data.questions.length)]
 
-const p = document.createElement('p')
-p.innerHTML = rand;
+const h2 = document.createElement('h2')
+h2.innerHTML = rand;
 const box = document.getElementById('box')
 
-box.appendChild(p);
+box.appendChild(h2);
 
