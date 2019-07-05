@@ -1,5 +1,6 @@
 const data = {
-    questions: ['Garden', 'Table', 'Chair', 'Car', 'School']
+    questions: ['Garden', 'Table', 'Chair', 'Car', 'Window'],
+    answers: ['Tuin', 'Tafel', 'Stoel', 'Auto', 'Raam']
 }
 
 const rand = data.questions[Math.floor(Math.random() * data.questions.length)]
@@ -10,3 +11,11 @@ const box = document.getElementById('box')
 
 box.appendChild(h2);
 
+function showAnswer(){
+    for(let i = 0; i < data.questions.length; i++){
+        if(rand == data.questions[i]){
+            h2.innerHTML = null
+            h2.innerHTML = data.answers[i]
+        }
+    }
+}
